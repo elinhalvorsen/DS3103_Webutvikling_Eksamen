@@ -1,0 +1,31 @@
+/* --- Navigasjonsbar --- */
+
+/* Bilde inni navigasjonsbaren */
+#image__icon {
+    height: 65px;
+}
+/* Bakgrunnsfarge til navigasjonsbaren */
+#navbar {
+    background-color: #e20600;
+}
+
+/* ---------------------------------------------- */
+
+/* --- Den sorte linjen rundt førerne og bilene --- */
+
+#output-section__drivers,
+#output-section__home,
+#output-section__endpoints {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    margin: 10px 0px 0px 10px;
+    padding: 20px;
+}
+
+#output-section__cars,
+#output-section__driver-endpoints {
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    margin: 0px 0px 10px 10px;
+    padding: 20px;
+}

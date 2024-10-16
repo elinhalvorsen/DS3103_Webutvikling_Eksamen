@@ -1,0 +1,67 @@
+/*Klasser for styling av ulik tekst på siden.*/
+* {
+    font-family: "Formula1-Regular";
+}
+h1,
+h3,
+b {
+    font-family: "Formula1-Bold";
+}
+p {
+    font-family: "Montserrat";
+}
+.bg-success {
+    background-color: #17796e !important; /* Tilpasset bakgrunnsfarge */
+}
+
+.text-success {
+    color: #ffffff !important; /* Tilpasset tekstfarge */
+}
+
+.btn-success {
+    background-color: #17796e;
+}
+
+.btn-success:hover {
+    background-color: #126058; /* Mørkere nyanse for hover-effekt */
+}
+.bg-danger,
+.btn-danger {
+    background-color: #e20600 !important;
+}
+
+/*Fontene som er brukt*/
+/*For enklere lesbarhet for brukeren*/
+@font-face {
+    font-family: Montserrat;
+    src: url("./fonts/montserrat.regular.ttf");
+}
+@font-face {
+    font-family: Formula1-Regular;
+    src: url("./fonts/Formula1-Regular-1.ttf");
+}
+@font-face {
+    font-family: Formula1-Bold;
+    src: url("./fonts/Formula1-Bold-4.ttf");
+}
+
+/*Bilde av headsettet i navbaren*/
+#icon-image {
+    width: 50px;
+}
+
+/*Den rød heltrekne linjen på Registrer siden. brukt rundt sectionene til innholdet*/
+#section__register__page-drivers__left,
+#section__register__page-teams__left {
+    border-left: 10px solid #e20600;
+    border-bottom: 10px solid #e20600;
+    margin: 0px 10px 0px 0px;
+    padding: 15px;
+}
+#section__register__page-teams__right,
+#section__register__page-drivers__right {
+    border-right: 10px solid #e20600;
+    border-bottom: 10px solid #e20600;
+    margin: 0px 10px 0px 10px;
+    padding: 20px;
+}

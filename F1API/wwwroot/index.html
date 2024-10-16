@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formel 1 API</title>
+        <!-- Ekstern CSS styling -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <!-- Tilkobling for javascript modulene -->
+        <script type="module" src="scripts/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Navigasjonsbaren -->
+            <nav class="navbar navbar-expand-lg" id="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <!-- Bilde av racerbil som fører deg til index.html -->
+                        <a href="index.html"
+                            ><img
+                                id="image__icon"
+                                src="images/f1-icon.png"
+                                alt="Bilde av bil i navbaren."
+                        /></a>
+                    </div>
+                    <!-- Navigasjonslenker til høyre -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-white"
+                                href="documentation.html"
+                                >Dokumentasjon</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link text-white"
+                                href="information.html"
+                                >Informasjon</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Container for hovedinnholdet på siden -->
+        <div class="container">
+            <main>
+                <section class="row">
+                    <article class="text-center pt-4">
+                        <h1>Formel 1 API</h1>
+                    </article>
+                    <!-- API-forklaring og velkomstmelding -->
+                    <article class="pt-4">
+                        <h2>Velkommen!</h2>
+                        <p>
+                            Formel 1 er en av verdens mest prestisjefylte
+                            motorsportserier, kjent for å tiltrekke seg et
+                            globalt publikum og en dedikert fanbase. Hver sesong
+                            består av en rekke spennende løp som foregår på
+                            baner over hele verden, og involverer de mest
+                            talentfulle førerne og teknisk avanserte racerbiler.
+                            Formel 1 er en unik kombinasjon av hastighet,
+                            strategi og nyskapning, og har en lang historie med
+                            legendariske øyeblikk som har formet sportens arv.
+                        </p>
+                        <hr />
+                        <p>
+                            Dette API-et gir utviklere en verdifull ressurs for
+                            å hente informasjon om denne dynamiske sporten.
+                            Enten du er interessert i å få data om de mest
+                            fremtredende førerne, utfallet av spesifikke løp,
+                            eller statistikk om de ulike lagene, så har dette
+                            API-et deg dekket. Den inkluderte dokumentasjonen
+                            gir deg en grundig gjennomgang av hvordan du kan
+                            utnytte API-et for å berike dine egne applikasjoner
+                            eller nettsider med oppdatert og pålitelig Formel
+                            1-data. Med API-et kan utviklere enkelt integrere
+                            relevant Formel 1-informasjon i sine egne
+                            prosjekter.
+                        </p>
+                        <p>
+                            Dette gir muligheten til å skape engasjerende
+                            opplevelser for Formel 1-entusiaster, enten det er
+                            gjennom apper, nettsider eller andre digitale
+                            plattformer. Enten du er en erfaren utvikler eller
+                            bare har en nysgjerrighet for Formel 1, så åpner
+                            dette API-et opp for en verden av muligheter for å
+                            utforske og dele denne spennende sporten med et
+                            globalt publikum.
+                        </p>
+                        <p>
+                            Ta plass i bilen, lene deg tilbake og opplev en tur
+                            med en fart på over 300 km/t!
+                        </p>
+                    </article>
+                </section>
+                <!-- Bilder av biler og førerne -->
+                <article class="text-center pt-4">
+                    <h3>Noen av førerne og bilene for 2023</h3>
+                    <p>
+                        Her er en visuell representasjon av de top 8 førerne for
+                        de 4 top lagene.
+                    </p>
+                </article>
+                <!-- I disse 2 section blir innholdet generert i modulene -->
+                <section class="row g-3" id="output-section__drivers"></section>
+                <section class="row g-3" id="output-section__cars"></section>
+            </main>
+            <!-- Bootstrap Javascript -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"
+            ></script>
+        </div>
+    </body>
+</html>
