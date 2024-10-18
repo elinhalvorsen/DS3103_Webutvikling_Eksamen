@@ -1,5 +1,5 @@
 <h1 align='center'>
-  #DS3103 Webutvkling Høsten 2023
+  DS3103 Webutvkling Høsten 2023
 </h1>
 Dette er min eksamen i Webutvkling høsten 2023.
 Tema for oppgaven var Formel 1.
